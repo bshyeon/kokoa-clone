@@ -30,10 +30,10 @@
       </p>
     </header>
 
-    <form id="login-form">
-      <input type="text" placeholder="Email or phone number" />
-      <input type="password" placeholder="Password" />
-      <input type="submit" value="Log In" />
+    <form method="GET" id="login-form">
+      <input name="username" type="text" placeholder="Email or phone number" />
+      <input name="password" type="password" placeholder="Password" />
+      <input type="submit" value="Log In" formaction="friends.html" />
       <input type="submit" value="Sign Up" />
       <a href="#">Find Kokoa Account or Password</a>
     </form>
