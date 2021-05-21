@@ -5,6 +5,7 @@
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/uesr-component.css";
+@import "components/badge.css";
 
 /* Screen */
 @import "screen/login.css";
